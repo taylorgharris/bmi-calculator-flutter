@@ -49,8 +49,8 @@ class ResultsPage extends StatelessWidget {
                 children: [
                   Text(
                     results,
-                    style: results == 'Overweight'
-                        ? kTextStyleRedMeasure
+                    style: results == 'Normal'
+                        ? kTextStyleGreenMeasure
                         : kTextStyleYellowMeasure,
                   ),
                   Text(
